@@ -18,6 +18,7 @@
       <img src="{{question.urlB}}" alt="">
       <p class="badge badge-warning">{{question.countB}}</p>
     </div>
+    <br>
     <a href="{% url 'pepsi:update' question.id %}" class="btn btn-primary">수정</a>
     <a href="{% url 'pepsi:delete' question.id %}" class="btn btn-danger">삭제</a>
 </div>
